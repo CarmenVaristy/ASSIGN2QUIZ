@@ -69,6 +69,16 @@ import androidx.core.view.WindowInsetsCompat
                         intent.putExtra("score", score)
                         startActivity(intent)
                         finish()
+
+                    //Reference list entry:
+                    //Richardson, M., 2022. Kotlin Quiz App for Android.
+                    // GitHub. Available at: https://github.com/mrichardson/kotlin-quiz-app [Accessed 4 May 2025].
+
+                    //Reference list entry:
+                    //OpenAI ChatGPT, 2025. QuizActivity class: Kotlin source code for Android quiz logic with score tracking.
+                    // Generated in response to a user prompt on ChatGPT, 4 May. Available at: https://chat.openai.com/ [Accessed 4 May 2025].
+
+
                     }
                 }
             }

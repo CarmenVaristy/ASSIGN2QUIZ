@@ -23,6 +23,12 @@ class MainActivity : AppCompatActivity() {
         startButton.setOnClickListener {
             val intent = Intent(this, QuizActivity::class.java)
             startActivity(intent)
+
+        // Reference list entry:
+        //  OpenAI, 2025. Kotlin code to navigate from WelcomeActivity to QuizActivity using a button.
+        //  ChatGPT, 4 May. Available at: https://chat.openai.com/ [Accessed 4 May 2025].
+
+
         }
     }
 }

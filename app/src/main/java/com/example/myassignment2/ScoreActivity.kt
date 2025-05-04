@@ -47,20 +47,27 @@ class ScoreActivity : AppCompatActivity() {
         val correctAnswers = arrayOf("True", "False", "False", "True", "True")
 
 
-            val reviewBox = findViewById<TextView>(R.id.reviewTextBox)
+        val reviewBox = findViewById<TextView>(R.id.reviewTextBox)
 
 
-            // Build the full review text
-            var reviewText = ""
-            for (i in questions.indices) {
-                reviewText += "${i + 1}. ${questions[i]}\nAnswer: ${correctAnswers[i]}\n\n"
-            }
+        // Build the full review text
+        var reviewText = ""
+        for (i in questions.indices) {
+            reviewText += "${i + 1}. ${questions[i]}\nAnswer: ${correctAnswers[i]}\n\n"
+        }
 
-            // Show all questions and answers in one box
-            reviewBox.text = reviewText
+        // Show all questions and answers in one box
+        reviewBox.text = reviewText
 
 
-            }
+    //Reference list entry:
+    //Gupta, T., 2023. Quiz App in Kotlin [Source code].
+    // GitHub. Available at: https://github.com/tanyagupta0201/Quiz-App [Accessed 4 May 2025].
+
+    // Reference list entry:
+    // OpenAI, 2025. Kotlin code for score and review display in an Android quiz app.
+    // Generated in response to a user prompt on ChatGPT, 4 May. Available at: https://chat.openai.com/ [Accessed 4 May 2025].
+}
         }
 
 
